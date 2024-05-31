@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    
+    --background: #2D2D2D;
+    --surface: linear-gradient(to right, rgba(255, 255, 255, .2), rgba(255, 255, 255, .05));
+    --border: #9F9F9F;
+    --text: #FFFFFF;
+    --subtext: #AFAFAF;
+    --accent: dodgerblue;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, small { 
+    color: var(--text);
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
