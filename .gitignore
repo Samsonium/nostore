@@ -1,0 +1,18 @@
+/*
+
+# Include dirs
+!/src
+!/static
+
+# Include files
+!/.gitignore
+!/.npmrc
+!/.prettierignore
+!/.prettierrc
+!/eslint.config.js
+!/package.json
+!/README.md
+!/svelte.config.js
+!/tsconfig.json
+!/vite.config.ts
+!/yarn.lock
